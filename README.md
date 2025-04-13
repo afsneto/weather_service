@@ -101,8 +101,6 @@ docker run -p 5001:5001 weather_service
 ## Utilizando o Docker Compose
 Caso este microserviço seja parte de um sistema maior, você pode usar o Docker Compose para orquestrar os containers. Um exemplo de docker-compose.yml:
 ```yaml
-version: "3.8"
-
 services:
   weather:
     build:
